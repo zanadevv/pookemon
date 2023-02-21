@@ -16,6 +16,7 @@ h1{
     font-family: var(--title-font-family);
     font-weight: var(--title-font-weight);
     padding-right: 30%;
+    text-transform: uppercase;
 }
 
 #background-video {
@@ -24,9 +25,7 @@ h1{
     object-fit: cover;
     position: fixed;
     left: 0;
-    right: 0;
     top: 0;
-    bottom: 0;
     z-index: -1;
 }
 
@@ -36,7 +35,7 @@ li{
     font-family: var(--title-font-family);
     display: inline-block;
     margin: 0 1rem;
-    list-style: none;
+    text-transform: uppercase;
 }
 
 a{

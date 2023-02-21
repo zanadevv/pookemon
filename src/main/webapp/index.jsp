@@ -14,11 +14,11 @@
         <source src="assets/video/background.mp4" type="video/mp4">
     </video>
     <header>
-        <h1>POOKEMON</h1>
+        <h1><a href="index.jsp">Pookemon</a></h1>
         <ul>
-            <li><a href="">INICIO</a></li>
-            <li><a href="public_html/game.jsp">JUGAR</a></li>
-            <li><a href="">EQUIPO</a></li>
+            <li><a href="public_html/game.jsp">Jugar</a></li>
+            <li><a href="public_html/equipo.jsp">Equipo</a></li>
+            <li><a href="public_html/pokedex.jsp">Pokedex</a></li>
         </ul>
     </header>
 </div>
