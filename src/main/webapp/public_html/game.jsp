@@ -13,13 +13,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Pookemon | Game </title>
     <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="../style/game.css">
 </head>
 <body>
-    <div class="container">
-        <video id="background-video" autoplay loop muted poster="">
-            <source src="../assets/video/background.mp4" type="video/mp4">
-        </video>
-    </div>
+    <jsp:include page="../includes/baseTemplate.jsp" flush="true"/>
 </body>
 </html>
