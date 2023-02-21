@@ -1,5 +1,44 @@
 #background-video {
     transform: scale(1.1);
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.scenario{
+    margin: 3rem 0 0 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--index-color);
+    font-size: var(--nav-font-size);
+    font-weight: var(--nav-font-weight);
+    font-family: var(--title-font-family);
+    text-transform: uppercase;
+}
+
+.scenarioContainer{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.scenarioContainer div{
+    padding: 1rem;
+    width: 30%;
+}
+
+.scenarioContainer div img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
