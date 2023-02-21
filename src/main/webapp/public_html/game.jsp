@@ -20,7 +20,7 @@
 <div class="container">
     <jsp:include page="../includes/headerInclude.jsp" flush="true"/>
     <section>
-        <div class="scenario">
+        <div class="scenarioText">
         <h2>Elige tu Escenario</h2>
         </div>
         <div class="scenarioContainer">
