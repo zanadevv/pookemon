@@ -14,8 +14,10 @@
     --accent-color: #0f0;
     --title-font-size: 2.5rem;
     --nav-font-size: 1.25rem;
+    --subtitle-font-size: 1.5rem;
     --title-font-family: 'Merienda', cursive;
     --body-font-family: 'Roboto', sans-serif;
     --title-font-weight: 800;
     --nav-font-weight: 700;
+    --subtitle-font-weight: 500;
 }
