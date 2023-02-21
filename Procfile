@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.nebrija.pookemon
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.nebrija.pookemon.controller.Main

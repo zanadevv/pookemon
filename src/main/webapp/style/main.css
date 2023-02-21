@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+:root{
+    --background-color: #121212;
+    --index-color: #121212;
+    --color: #fff;
+    --main-color: #f00;
+    --accent-color: #0f0;
+    --title-font-size: 2.5rem;
+    --nav-font-size: 1.25rem;
+    --title-font-family: 'Merienda', cursive;
+    --body-font-family: 'Roboto', sans-serif;
+    --title-font-weight: 800;
+    --nav-font-weight: 700;
+}
