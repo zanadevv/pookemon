@@ -81,9 +81,12 @@ public abstract class Pokemon {
         this.synergyWith = synergyWith;
     }
 
-    public Pokemon attack(Pokemon p) {
-        p.setHp(p.getHp() - (int) (this.getAtaque() * p.getDefensa()));
-        return p;
+    public void attack(Pokemon atacado) {
+        atacado.setHp((int) (atacado.getHp() - (this.getAtaque() * this.getDefensa())));
+    }
+
+    public void attackSpecial(Pokemon atacado) {
+        atacado.setHp((int) (atacado.getHp() - this.getAtaqueEspecial()*this.getDefensaEspecial()));
     }
 
     public int getId() {

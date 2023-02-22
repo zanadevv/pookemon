@@ -1,5 +1,4 @@
 <%--
-  Created by IntelliJ IDEA.
   User: zana
   Date: 21/2/23
   Time: 15:20
