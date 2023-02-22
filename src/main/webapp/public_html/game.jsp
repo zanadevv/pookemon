@@ -33,5 +33,6 @@
         </div>
     </section>
 </div>
+<script src="../scripts/gameScenario.js"></script>
 </body>
 </html>
