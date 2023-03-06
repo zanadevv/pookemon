@@ -20,15 +20,35 @@
     <jsp:include page="../includes/headerInclude.jsp" flush="true"/>
     <section>
         <div class="scenarioText">
-        <h2>Elige tu Escenario</h2>
+            <h2>Elige tu Escenario</h2>
         </div>
-        <div class="scenarioContainer">
-            <div id="scenario1"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
-            <div id="scenario2"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
-            <div id="scenario3"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
-            <div id="scenario4"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
-            <div id="scenario5"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
-            <div id="scenario6"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
+        <div id="hud">
+            <div class="playerController">
+                <div id="player1">
+                    <h2>Jugador 1</h2>
+                    <button class="attack">Ataque</button>
+                    <button class="attackSpecial">Ataque Especial</button>
+                    <button class="spell">Habilidad</button>
+                    <button class="protect">Protegerse</button>
+                </div>
+            </div>
+            <div class="scenarioContainer">
+                <div id="scenario1"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
+                <div id="scenario2"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
+                <div id="scenario3"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
+                <div id="scenario4"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
+                <div id="scenario5"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
+                <div id="scenario6"><img src="${pageContext.request.contextPath}/assets/img/scenarios/3hqfdsb9uvg11.webp" alt=""></div>
+            </div>
+            <div class="playerController">
+                <div id="player2">
+                    <h2>Jugador 2</h2>
+                    <button class="attack">Ataque</button>
+                    <button class="attackSpecial">Ataque Especial</button>
+                    <button class="spell">Habilidad</button>
+                    <button class="protect">Protegerse</button>
+                </div>
+            </div>
         </div>
     </section>
 </div>

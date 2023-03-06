@@ -36,25 +36,6 @@
     width: 30%;
 }
 
-.scenarioContainer{
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.scenarioContainer div{
-    padding: 1rem;
-    width: 30%;
-}
-
 .scenarioContainer div img{
     border-radius: 10px;
     width: 100%;
@@ -73,8 +54,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70vw;
-    height: 70vh
+    width: 56vw;
 }
 
 .scenarioContainer .selected img{
@@ -90,4 +70,45 @@
 
 .nonSelected{
     display: none;
+}
+
+#hud{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.playerController{
+    margin: 1rem;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.playerController h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--subtitle-font-size);
+    font-weight: var(--subtitle-font-weight);
+    font-family: var(--title-font-family);
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#player1, #player2{
+    visibility: hidden;
+}
+
+.playerController button{
+    border-radius: 10px;
+    border: none;
+    margin: 1rem 0;
+    width: 49%;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
 }
